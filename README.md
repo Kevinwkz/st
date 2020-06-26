@@ -1,4 +1,4 @@
-st - simple terminal
+Kevin's st build
 --------------------
 st is a simple terminal emulator for X which sucks less.
 
