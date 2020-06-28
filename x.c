@@ -1138,13 +1138,9 @@ xinit(int cols, int rows)
 	Window parent;
 	pid_t thispid = getpid();
 	XColor xmousefg, xmousebg;
-<<<<<<< HEAD
 	XWindowAttributes attr;
-=======
 	Pixmap blankpm;
-    XWindowAttributes attr;
->>>>>>> 42e5a2b5bc5858b57d7d245040b6ed8a5deb9a62
-	XVisualInfo vis;
+        XVisualInfo vis;
 
 	xw.scr = XDefaultScreen(xw.dpy);
 
