@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:style=Bold:pixelsize=16:antialias=true:autohint=true";
+static char *font = "JetBrains Mono:style=Bold:size=14:antialias=true:autohint=true";//"mono:style=Bold:pixelsize=16:antialias=true:autohint=true";
 static char *font2[] = { "JoyPixels:pixelsize=12:antialias=true:autohint=true" };
 static int borderpx = 8;
 
@@ -96,7 +96,7 @@ unsigned int tabspaces = 8;
 
 /* bg opacity */
 float alpha = 0.9;
-static char *background = "#222222";
+static char *background = "#383c4a";
 static char *foreground = "#FFECB3";
 
 /* Terminal colors (16 first used in escape sequence) */
@@ -122,7 +122,7 @@ static const char *colorname[] = {
     [15] = "#fcfcfc", /* white   */
 
     /* special colors */
-    [256] = "#222222", /* background */
+    [256] = "#383c4a", /* background */
     [257] = "#FFECB3", /* foreground */
 };
 
